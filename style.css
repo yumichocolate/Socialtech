@@ -175,3 +175,62 @@
 #product-more{
   margin: 0px auto -42px auto;
 }
+
+/*ABOUT US*/
+#aboutus {
+  margin: 80px auto 80px auto;
+}
+/*3つの組織文化と画像を入れる枠*/
+#aboutus > div{
+  display: flex;
+}
+.culture-img{
+  width: 100%;
+  align-self: flex-start;
+}
+.culture-img2{
+    margin-top: 50px;
+    width: 100%;
+}
+.culture-table{
+  margin-right: 50px;
+}
+/*番号*/
+.culture-num{
+  font-size: 80px;
+  color: #2710d5;
+  margin: 0 20px 0 0;
+}
+/*組織文化英語*/
+.culture-en{
+  color: #2710d5;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+}
+.culture-jp{
+  font-size: 28px;
+  font-weight: bold;
+}
+.culture-discription{
+ margin: 0;
+}
+/*ビジョン*/
+#vision{
+  margin: 80px auto 80px auto;
+}
+/*セクション内の外枠*/
+#vision > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/*７つの行動指針の枠*/
+.vision-box{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+
+}
