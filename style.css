@@ -273,7 +273,47 @@
   font-size: 20px;
   margin: 0 0 0 0;
  }
-  .vision-box > span > p {
-    margin: 10px 0 0 0;
+ 
+ .vision-box > span > p {
+    margin: 10px 0 0 0
+ }
+
+  /*会社概要*/
+  #company {
+    margin: 80px auto 80px auto;
   }
-  
+
+ #company-table {
+  width: 100%;
+}
+
+.tableheader {
+  text-align: left;
+  padding: 20px;
+  border-bottom-color: #2710d5;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  width: 100px;
+}
+.tableheader-first{
+  text-align: left;
+  padding: 20px
+  border-top-color: #2710d5;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #2710d5
+  bporder-top-width: 1px
+  border-top-style: solid;
+  width: 100px;
+}
+.cell{
+  padding: 30px;
+  border-bottom-color: #ececec;
+  border-bottom-width; 1px;
+  border-bottom-style: solid;
+}
+
+.cell-first{
+  padding: 30px;
+}
+
