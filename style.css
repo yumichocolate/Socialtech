@@ -190,12 +190,12 @@ h3
 }
 
 /* ABOUT US */
-#aboutus{
+#about us{
   margin: 80px auto 80px auto;
 }
 
 /* ３つの組織文化と画像を入れる枠 */
-#aboutus > div{
+#about us > div{
   display: flex;
 }
 
@@ -365,7 +365,7 @@ h3
 }
 
 /*テキストボックス*/
-.contact-textbox {
+.contact-text box {
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -559,8 +559,8 @@ footer{
   border-radius: 476px 0 0 0;
   z-index: 10;
   position: absolute;
-  bottom: 0;
   right: 0;
+  bottom: -100px;
 }
 /*見出し*/
 h2::after{
@@ -604,7 +604,7 @@ h3 {
   height: 540px;
 }
 /*説明文の枠*/
-.product-explain > span{
+.product-explain {
   background-color: #ffffff;
   position: absolute;
   left: 0;
@@ -642,14 +642,113 @@ h3 {
 .culture-table{
   width: 100%;
   padding-right: 20px;
-  order:2;
+  order: 2;
 }
 .culture-img{
   width: 100%;
-  order:1;
+  order: 1;
 }
 .culture-img2{
   width: 100%;
 }
-
+.culture-num{
+  font-size: 80px;
+  color: #2710d5;
+}
+.culture-en{
+  color:#2710d5;
+  font-weight: bold;
+  font-size: 24px;
+  display: block;
+}
+.culture-jp{
+  display: block;
+}
+.culture-description{
+  margin:0;
+}
+#vision{
+  margin: 80px 20px 80px 20px;
+}
+.vision-box{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.vision-box > img{
+  width: 100%;
+  height: auto;
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+.vision-box > span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 31;
+  margin-right: 20px;
+}
+.vision-box > span > h4{
+  color:#2710d5;
+  font-size: 19px;
+  margin: 60px 0 0 0;
+}
+.vision-box > span > h5{
+  font-size: 20px;
+  margin: 0 0 0 0;
+}
+.vision-box > span > p{
+  margin: 10px 0 0 0;
+}
+#company{
+  margin: 0 20px 0 20px
+}
+#company > h3{
+  margin-bottom: 20px;
+}
+#company > table{
+  width: 100%;
+}
+.tableheader-first{
+  text-align: left;
+  padding: 20px;
+  border-bottom-color: #2710d5;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-color: #2710d5;
+  border-top-width: 1px;
+  border-top-style: solid
+  width: 50px;
+}
+.tableheader{
+  text-align: left;
+  padding: 20px;
+  border-bottom-color: #2710d5;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  width: 50px;
+}
+.cell{
+  padding: 20px;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.cell-first{
+  padding: 20px;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-color: #ececec;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+#company > iframe{
+  width: 100%;
+  height: 240px;
+  margin: 40px 0 0 0;
+}
 }
