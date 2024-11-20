@@ -768,4 +768,64 @@ h3 {
   margin-left: 20px;
   font-weight: bold;
 }
+.contact-textbox{
+  height: 56px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #fafafa;
+  border-bottom-color:#707070;
+  border-bottom-width: 1px;
+  border-bottom-style:solid;
+  min-width: 300px;
+  width: 100%;
+}
+.contact-textarea{
+  height: 150px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #fafafa;
+  width: 100%;
+}
+.radiobutton{
+  margin-bottom: 20px;
+}
+.radiobutton+label::after{
+  content: "\A";
+  white-space: pre;
+}
+
+/*フッター*/
+footer{
+  background-color:#0d0d0d;
+  padding:30px 20px 50px 20px;
+}
+#footer-logo{
+  margin-bottom: 30px;
+}
+#footer-link{
+  margin-bottom: 50px
+}
+#footer-link >a {
+text-decoration: none;
+margin: 0 20px 30px 0;
+display: block;
+background-image: url(images/arrow.png);
+background-repeat: no-repeat;
+background-position :right top;
+}
+#footer-link > a:link{
+color: #ffffff;
+}
+#footer-link > a:visited{
+  color: #ffffff;
+}
+#footer-link > a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+#footer-link > a:active{
+  color: #ffffff;
+}
 }
