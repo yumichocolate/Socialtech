@@ -751,4 +751,21 @@ h3 {
   height: 240px;
   margin: 40px 0 0 0;
 }
+#contact{
+  margin: 80px 20px 80px 20px;
+}
+#contact > form > div{
+  margin-bottom: 20px;
+}
+.contact-heading{
+  margin-bottom: 20px;
+}
+.contact-label{
+  font-weight: bold;
+}
+.contact-span{
+  color: #ce2222;
+  margin-left: 20px;
+  font-weight: bold;
+}
 }
