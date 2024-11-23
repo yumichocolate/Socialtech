@@ -816,7 +816,7 @@ background-repeat: no-repeat;
 background-position :right top;
 }
 #footer-link > a:link{
-color: #ffffff;
+ color: #ffffff;
 }
 #footer-link > a:visited{
   color: #ffffff;
@@ -827,5 +827,14 @@ color: #ffffff;
 }
 #footer-link > a:active{
   color: #ffffff;
+}
+#sns-footer > a {
+  margin: 30px;
+}
+#copyright{
+  font-size: 12px;
+  display: block;
+  margin: 30px;
+  color:#ffffff;
 }
 }
