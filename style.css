@@ -1001,4 +1001,20 @@ background-position :right top;
 .fivegoals-p{
   margin: 0;
 }
+
+#product-main{
+  height: 496px;
+  width: 200%;
+  background-image: url(images/product/product-main.png);
+  background-repeat: no-repeat;
+  background-position-y:center ;
+}
+#product-title{
+  background-color: #2710d5;
+  width: 368px;
+  color: #ffffff;
+  height: 496px;
+  border-radius: 248px;
+  position:relative
+}
 }
