@@ -96,7 +96,7 @@ p {
 		right: 0;
 		z-index: 10;
 	}
-
+	/*見出し*/
 	h2 {
 		margin: 40px 0 0 0;
 	}
@@ -108,7 +108,7 @@ p {
 	h3 {
 		font-size: 27px;
 	}
-
+	/*ミッション*/
 	#mission {
 		margin: 80px auto 80px auto;
 		width: 100%;
@@ -142,10 +142,12 @@ p {
 		margin-top: 40px;
 		display: flex;
 	}
+	/*左のカラム*/
 	#product-left {
 		width: 50%;
 		margin-right: 20px;
 	}
+	/*右のカラム*/
 	#product-right {
 		width: 50%;
 		margin-left: 20px;
@@ -177,6 +179,7 @@ p {
 		padding: 20px;
 		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
 	}
+	/*説明文の英語*/
 	.product-explain > span {
 		color: #2710d5;
 		font-weight: bold;
@@ -189,12 +192,12 @@ p {
 		font-size: 20px;
 		margin: 5px 0 5px 0;
 	}
-
+	/*説明文*/
 	.product-explain > p {
 		font-size: 14px;
 		margin: 0;
 	}
-	/*もっとみるボタン*/
+	/*もっと見るボタン*/
 	#product-more {
 		margin: 0 auto -42px auto;
 	}
@@ -954,9 +957,11 @@ p {
 	.contact-heading {
 		margin-bottom: 20px;
 	}
+	/*ラベル*/
 	.contact-label {
 		font-weight: bold;
 	}
+	/*必須*/
 	.contact-span {
 		color: #ce2222;
 		margin: 0 0 0 20px;
@@ -1069,6 +1074,7 @@ p {
 		left: 20px;
 		font-size: 13px;
 	}
+	/*ミッションページ　S2DGSの設定*/
 	#mission-s2dgs {
 		margin: 20px;
 	}
@@ -1083,7 +1089,7 @@ p {
 	#mission-s2dgs > img {
 		width: 100%;
 	}
-
+	/*ミッションページ　5つのゴールの設定*/
 	#mission-5goals {
 		margin: 20px;
 	}
@@ -1167,9 +1173,6 @@ p {
 		border-radius: 300px 0 0 0;
 	}
 	.product-section2 > div {
-		order: 2;
-	}
-	.product-h2 {
 		order: 2;
 	}
 	.product-h2 {
